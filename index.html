@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form validationt</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/96a3356d09.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="outer-div">
+      <div class="inner-div1">
+        <img src="rest.jpg" class="image" />
+      </div>
+
+      <div class="inner-div2">
+        <div class="text-div">
+          <h4 class="head-text">Booking place for your dinner!</h4>
+
+          <form onsubmit="return validation()">
+            <input
+              onclick="i()"
+              type="text"
+              class="text-box"
+              placeholder="Your Name"
+              id="name"
+              autocomplete="off"
+            />
+            <i
+              class="fas fa-exclamation-circle"
+              style="color: red; visibility: hidden;"
+              id="mark"
+            ></i>
+            <br />
+
+            <label
+              id="name-label"
+              style="color: red; visibility: hidden; margin-left: 50px;"
+              >Blank field is not allowed</label
+            >
+            <br />
+
+            <input
+              onclick="i2()"
+              type="number"
+              class="text-box2"
+              placeholder="Phone Number"
+              id="phone-number"
+            />
+            <i
+              class="fas fa-exclamation-circle"
+              style="color: red; visibility: hidden;"
+              id="mark2"
+            ></i>
+
+            <br />
+            <span
+              id="phone-label"
+              style="color: red; visibility: hidden; margin-left: 50px;"
+              >Blank field is not allowed</span
+            >
+            <br />
+
+            <select name="cars" id="time" class="text-box3" onclick="i3()">
+              <option value="" disabled selected>Time</option>
+              <optgroup label="Morning Occupancy">
+                <option value="volvo">09:30</option>
+                <option value="saab">11:00</option>
+              </optgroup>
+              <optgroup label="Noon Occupancy">
+                <option value="mercedes">1:30</option>
+                <option value="audi">2:30</option>
+              </optgroup>
+              <optgroup label="Evening Occupancy">
+                <option value="mercedes">7:30</option>
+                <option value="audi">10:30</option>
+              </optgroup>
+            </select>
+            <i
+              class="fas fa-exclamation-circle"
+              style="color: red; visibility: hidden;"
+              id="mark3"
+            ></i>
+
+            <br />
+            <span
+              id="time-label"
+              style="color: red; visibility: hidden; margin-left: 50px;"
+              >Blank field is not allowed</span
+            >
+            <br />
+
+            <select name="cars" id="food" class="text-box3" onclick="i4()">
+              <option value="" disabled selected>Food</option>
+              <optgroup label="Indian">
+                <option value="volvo">Spicy</option>
+                <option value="saab">Non-spicy</option>
+              </optgroup>
+              <optgroup label="Italian">
+                <option value="mercedes">Spicy</option>
+                <option value="audi">Non-spicy</option>
+              </optgroup>
+              <optgroup label="Chinese">
+                <option value="mercedes">Spicy</option>
+                <option value="audi">Non-spicy</option>
+              </optgroup>
+            </select>
+            <i
+              class="fas fa-exclamation-circle"
+              style="color: red; visibility: hidden;"
+              id="mark4"
+            ></i>
+
+            <br />
+            <span
+              id="food-label"
+              style="color: red; visibility: hidden; margin-left: 50px;"
+              >Blank field is not allowed</span
+            >
+            <br />
+            <input
+              onclick="i5()"
+              type="email"
+              class="text-box2"
+              placeholder="Email"
+              id="eemail"
+            />
+            <i
+              class="fas fa-exclamation-circle"
+              style="color: red; visibility: hidden;"
+              id="mark5"
+            ></i>
+
+            <br />
+            <span
+              id="email-label"
+              style="color: red; visibility: hidden; margin-left: 50px;"
+              >Blank field is not allowed</span
+            >
+            <button type="submit" class="butn">
+              Book Now
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="indeex.js"></script>
+  </body>
+</html>

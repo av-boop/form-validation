@@ -1,0 +1,128 @@
+body {
+  background-color: #4a3f35;
+}
+
+.outer-div {
+  height: 600px;
+  width: 1000px;
+
+  transform: translate(-50%, 0);
+  position: absolute;
+  left: 50%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 8px;
+}
+
+.inner-div1 {
+  height: 600px;
+  width: 600px;
+  border-radius: 8px;
+}
+
+.image {
+  height: 600px;
+  width: 600px;
+}
+
+.inner-div2 {
+  height: 600px;
+  width: 400px;
+
+  background-color: #0f0c08;
+}
+
+.text-div {
+  width: 370px;
+  height: 560px;
+
+  transform: translate(-50%, 0);
+  position: absolute;
+  left: 80%;
+  top: 20px;
+}
+
+.head-text {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.text-box {
+  margin-left: 50px;
+  width: 270px;
+  height: 40px;
+  border-bottom: 1px solid green;
+  background-color: #0f0c08;
+  outline: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
+}
+
+.text-box2 {
+  margin-left: 50px;
+  width: 270px;
+  height: 40px;
+  border-bottom: 1px solid green;
+  background-color: #0f0c08;
+  outline: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin-top: 15px;
+}
+
+.text-box3 {
+  margin-left: 50px;
+  width: 270px;
+  height: 40px;
+  border-bottom: 1px solid green;
+  background-color: #0f0c08;
+  outline: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: gray;
+  font-family: "Roboto", sans-serif;
+  margin-top: 15px;
+}
+
+.radio-butn {
+  margin-left: 50px;
+  width: 270px;
+  height: 40px;
+
+  background-color: #0f0c08;
+  outline: none;
+  border: 1px solid red;
+  color: gray;
+  font-family: "Roboto", sans-serif;
+  margin-top: 15px;
+}
+
+.butn {
+  width: 150px;
+  height: 60px;
+  background-color: #4a3f35;
+  margin-top: 30px;
+  margin-left: 50px;
+  border: none;
+  outline: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  padding: 7px;
+}
+
+:hover.butn {
+  background-color: #2f2519;
+  border: 1px solid green;
+}
